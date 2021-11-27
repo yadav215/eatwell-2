@@ -8,6 +8,7 @@ import { HolidayEnjoyComponent } from './holiday-enjoy/holiday-enjoy.component';
 import { FeaturedRestaurantsComponent } from './featured-restaurants/featured-restaurants.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderNavigationComponent } from './header-navigation/header-navigation.component';
+import { ProductListingComponent } from './product-listing/product-listing.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HeaderNavigationComponent } from './header-navigation/header-navigation
     HolidayEnjoyComponent,
     FeaturedRestaurantsComponent,
     FooterComponent,
-    HeaderNavigationComponent
+    HeaderNavigationComponent,
+    ProductListingComponent
   ],
   imports: [
     BrowserModule,

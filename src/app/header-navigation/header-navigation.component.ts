@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header-navigation.component.scss']
 })
 export class HeaderNavigationComponent implements OnInit {
+  heroSectionWithoutNavigation:boolean = true;
 
   constructor() { }
 

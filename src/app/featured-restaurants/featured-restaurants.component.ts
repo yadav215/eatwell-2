@@ -1,4 +1,14 @@
 import { Component, OnInit } from '@angular/core';
+import FeaturedRestaurants from '../../api/mock.json';
+
+interface restaurants {
+  id:Number;
+  img:String;
+  title: String;
+  phone: String;
+  navigateNam: String;
+  navigateUrl: String
+}
 
 @Component({
   selector: 'app-featured-restaurants',
@@ -11,5 +21,7 @@ export class FeaturedRestaurantsComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
+  list: restaurants[] = FeaturedRestaurants;
 
 }

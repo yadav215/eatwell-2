@@ -4,26 +4,12 @@
         <div class="col-lg-12 col-sm-12 restaurant-title">
             <h1>Featured Restaurants</h1>
         </div>
-        <div class="col-lg-4 col-sm-4 restaurant-service">
-          <img src="assets/img/food1.png" class="img-fluid">
-            <h1><span class="span-h1">Tosca</span></h1>
-            <h2>781.740.0080</h2>
+        <div class="col-lg-4 col-sm-4 restaurant-service" *ngFor="let restaurant of listOfRestaurants">
+          <img  [src]="restaurant.img" class="img-fluid">
+            <h1><span class="span-h1">{{restaurant.title}}</span></h1>
+            <h2>{{restaurant.phone}}</h2>
             <p>visit us at</p>
-            <a href="https://www.toscahingham.com/" target="_blank">toscahingham.com</a>
-        </div>
-        <div class="col-lg-4 col-sm-4 restaurant-service">
-          <img src="assets/img/food2.png" class="img-fluid">
-            <h1><span class="span-h1">Stars</span></h1>
-            <h2>781.749.3200</h2>
-            <p>visit us at</p>
-            <a href="https://www.starshingham.com/"  target="_blank">starshingham.com</a>
-        </div>
-        <div class="col-lg-4 col-sm-4 restaurant-service">
-          <img src="assets/img/food3.png" class="img-fluid">
-            <h1><span class="span-h1">Caffe Tosca</span></h1>
-            <h2>781.740.9400</h2>
-            <p>visit us at</p>
-            <a href="https://www.caffetoscahingham.com/"  target="_blank">caffetoscahingham.com</a>
+            <a [href]="restaurant.navigateUrl" target="_blank">{{restaurant.phone}}</a>
         </div>
       </div>
      <div class="text-center"><a href="listing.html" class="btn-get-started scrollto">Purchase an Eat Well Gift Card</a></div>

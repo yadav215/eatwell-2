@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import FeaturedRestaurants from '../../api/mock.json';
+import FeaturedRestaurants from '../../api/mock'
 
 interface restaurants {
   id:Number;
   img:String;
   title: String;
   phone: String;
-  navigateNam: String;
+  navigateName: String;
   navigateUrl: String
 }
 
@@ -22,6 +22,5 @@ export class FeaturedRestaurantsComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  list: restaurants[] = FeaturedRestaurants;
-
+  restaurantsList = FeaturedRestaurants as unknown as restaurants[];
 }

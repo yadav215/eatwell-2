@@ -1,5 +1,5 @@
-{
-    "Restaurants": [
+export default
+ [
       { 
         "img":"/assets/img/food1.png",
         "title": "Tosca",
@@ -20,4 +20,5 @@
         "navigateUrl": "https://www.caffetoscahingham.com/"
       }
     ]
-  }
+
+

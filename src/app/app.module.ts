@@ -6,9 +6,10 @@ import { AppComponent } from './app.component';
 import { HeroSectionComponent } from './hero-section/hero-section.component';
 import { HolidayEnjoyComponent } from './holiday-enjoy/holiday-enjoy.component';
 import { FeaturedRestaurantsComponent } from './featured-restaurants/featured-restaurants.component';
-import { FooterComponent } from './footer/footer.component';
-import { HeaderNavigationComponent } from './header-navigation/header-navigation.component';
+
 import { ProductListingComponent } from './product-listing/product-listing.component';
+import { OrderModule } from './order/order.module';
+import { SiteLayoutModule } from './site-layout/site-layout.module';
 
 @NgModule({
   declarations: [
@@ -16,13 +17,13 @@ import { ProductListingComponent } from './product-listing/product-listing.compo
     HeroSectionComponent,
     HolidayEnjoyComponent,
     FeaturedRestaurantsComponent,
-    FooterComponent,
-    HeaderNavigationComponent,
-    ProductListingComponent
+    ProductListingComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    OrderModule,
+    SiteLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]

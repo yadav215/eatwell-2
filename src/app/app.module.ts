@@ -7,7 +7,6 @@ import { HeroSectionComponent } from './hero-section/hero-section.component';
 import { HolidayEnjoyComponent } from './holiday-enjoy/holiday-enjoy.component';
 import { FeaturedRestaurantsComponent } from './featured-restaurants/featured-restaurants.component';
 
-import { ProductListingComponent } from './product-listing/product-listing.component';
 import { OrderModule } from './order/order.module';
 import { SiteLayoutModule } from './site-layout/site-layout.module';
 
@@ -17,7 +16,6 @@ import { SiteLayoutModule } from './site-layout/site-layout.module';
     HeroSectionComponent,
     HolidayEnjoyComponent,
     FeaturedRestaurantsComponent,
-    ProductListingComponent,
   ],
   imports: [
     BrowserModule,

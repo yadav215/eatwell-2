@@ -2,20 +2,20 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
-  selector: 'app-view-product',
-  templateUrl: './view-product.component.html',
-  styleUrls: ['./view-product.component.scss']
+  selector: 'app-update-product',
+  templateUrl: './update-product.component.html',
+  styleUrls: ['./update-product.component.scss']
 })
-export class ViewProductComponent implements OnInit {
+export class UpdateProductComponent implements OnInit {
 
-productId:number = 0;
+  updateProductId:number = 0;
 
   constructor(private activatedRoute: ActivatedRoute) { }
 
   ngOnInit(): void {
 
     this.activatedRoute.params.subscribe(data=>{
-      this.productId = data['id'];
+      this.updateProductId = data['id'];
     })
   }
 

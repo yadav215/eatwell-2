@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import FeaturedRestaurants from '../../api/mock'
+import FeaturedRestaurants from '../../api/mock.json'
 
 interface restaurants {
   id:Number;

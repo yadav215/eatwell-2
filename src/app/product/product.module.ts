@@ -8,6 +8,7 @@ import { ViewProductComponent } from './view-product/view-product.component';
 import { DeleteProductComponent } from './delete-product/delete-product.component';
 import { ViewProductByCategoryComponent } from './view-product-by-category/view-product-by-category.component';
 import { ProductListingComponent } from './product-listing/product-listing.component';
+import { UpdateProductComponent } from './update-product/update-product.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { ProductListingComponent } from './product-listing/product-listing.compo
     ViewProductComponent,
     DeleteProductComponent,
     ViewProductByCategoryComponent,
-    ProductListingComponent
+    ProductListingComponent,
+    UpdateProductComponent
   ],
   imports: [
     CommonModule,

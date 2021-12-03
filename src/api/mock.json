@@ -1,28 +1,58 @@
 
 {
   "featuredRestaurants": [
-  { "id":"1",
+  { "id":1,
     "img":"/assets/img/food1.png",
     "title": "Tosca",
     "phone": "781.740.0080",
     "navigateName": "toscahingham.com",
     "navigateUrl": "https://www.toscahingham.com/"
   }, { 
-    "id":"2",
+    "id":2,
     "img":"/assets/img/food2.png",
     "title": "Stars",
     "phone": "781.749.3200",
     "navigateName": "starshingham.com",
     "navigateUrl": "https://www.starshingham.com/"
   }, { 
-    "id":"3",
+    "id":3,
     "img":"/assets/img/food3.png",
     "title": "Caffe Tosca",
     "phone": "781.740.9400",
     "navigateName": "caffetoscahingham.com",
     "navigateUrl": "https://www.caffetoscahingham.com/"
   }
+],"productListing": [
+  {
+    "productId":"1",
+    "categoryId":"1",
+    "productName":"Tosca",
+    "description":"Gift Card",
+    "productPrice":50,
+    "productImg": "/assets/img/ToscaGiftCard.jpg",
+    "isAvailableTill":"Dec-2021",
+    "review":""
+  },{
+    "productId":"2",
+    "categoryId":"2",
+    "productName":"Tosca",
+    "description":"Gift Card",
+    "productPrice":60,
+    "productImg": "/assets/img/CaffeTosca.jpg",
+    "isAvailableTill":"Dec-2021",
+    "review":""
+  },{
+    "productId":"2",
+    "categoryId":"2",
+    "productName":"Caffé Tosca",
+    "description":"Gift Card",
+    "productPrice":70,
+    "productImg": "/assets/img/starsgiftcard.jpg",
+    "isAvailableTill":"Dec-2021",
+    "review":""
+  }
 ]
+
 }
 
 

@@ -38,6 +38,6 @@ export class ProductService {
 
   getRestaurantsList(){
     const RestaurantsListUrl="http://localhost:3000/featuredRestaurants";
-    return this.httpClient.get<FeaturedRestaurant[]>(RestaurantsListUrl).pipe(first());
+    return this.httpClient.get<FeaturedRestaurant[]>(RestaurantsListUrl);
   }
 }

@@ -4,13 +4,15 @@
         <div class="col-lg-12 col-sm-12 restaurant-title">
             <h1>Featured Restaurants</h1>
         </div>
-        <div class="col-lg-4 col-sm-4 restaurant-service" *ngFor="let restaurant of restaurantsList">
-          <img  [src]="restaurant.img" class="img-fluid">
-            <h1><span class="span-h1">{{restaurant.title}}</span></h1>
-            <h2>{{restaurant.phone}}</h2>
+        <div class="col-lg-4 col-sm-4 restaurant-service" *ngFor="let list of restaurantsList">
+          <img [src]="list.img" class="img-fluid">
+            <h1><span class="span-h1">{{list.title}}</span></h1>
+            <h2>781.740.0080</h2>
             <p>visit us at</p>
-            <a [href]="restaurant.navigateUrl" target="_blank">{{restaurant.navigateName}}</a>
+            <a [href]="list.navigateUrl" target="_blank">{{list.navigateUrl}}</a>
         </div>
+        
+        
       </div>
      <div class="text-center"><a href="listing.html" class="btn-get-started scrollto">Purchase an Eat Well Gift Card</a></div>
       <div class="sticky-img3"><img src="assets/img/side-img3.png"></div>

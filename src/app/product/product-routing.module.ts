@@ -3,7 +3,6 @@ import { RouterModule, Routes } from '@angular/router';
 import { AddProductComponent } from './add-product/add-product.component';
 import { DeleteProductComponent } from './delete-product/delete-product.component';
 import { ProductListingComponent } from './product-listing/product-listing.component';
-import { ProductComponent } from './product.component';
 import { UpdateProductComponent } from './update-product/update-product.component';
 import { ViewProductByCategoryComponent } from './view-product-by-category/view-product-by-category.component';
 import { ViewProductComponent } from './view-product/view-product.component';

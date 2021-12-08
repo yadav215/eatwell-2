@@ -22,37 +22,37 @@
     "navigateName": "caffetoscahingham.com",
     "navigateUrl": "https://www.caffetoscahingham.com/"
   }
-],"productListing": [
-  {
-    "productId":"1",
-    "categoryId":"1",
-    "productName":"Tosca",
-    "description":"Gift Card",
-    "productPrice":50,
-    "productImg": "/assets/img/ToscaGiftCard.jpg",
-    "isAvailableTill":"Dec-2021",
-    "review":""
-  },{
-    "productId":"2",
-    "categoryId":"2",
-    "productName":"Tosca",
-    "description":"Gift Card",
-    "productPrice":60,
-    "productImg": "/assets/img/CaffeTosca.jpg",
-    "isAvailableTill":"Dec-2021",
-    "review":""
-  },{
-    "productId":"2",
-    "categoryId":"2",
-    "productName":"Caffé Tosca",
-    "description":"Gift Card",
-    "productPrice":70,
-    "productImg": "/assets/img/starsgiftcard.jpg",
-    "isAvailableTill":"Dec-2021",
-    "review":""
-  }
-]
-
+],
+"productListing": [
+    {
+      "productId": 1,
+      "categoryId": "1",
+      "productName":"Tosca",
+      "productPrice":50,
+      "description": "Gift Cards",
+      "productImg": "/assets/img/ToscaGiftCard.jpg",
+      "isAvailable": "Dec-2021",
+      "review:":""
+    },{
+      "productId": 2,
+      "categoryId": "2",
+      "productName":"Caffe Tosca",
+      "productPrice":60,
+      "description": "Gift Cards",
+      "productImg": "/assets/img/CaffeTosca.jpg",
+      "isAvailable": "Dec-2021",
+      "review:":""
+    },{
+      "productId": 2,
+      "categoryId": "3",
+      "productName":"Caffe Tosca",
+      "productPrice":70,
+      "description": "Gift Cards",
+      "productImg": "/assets/img/starsgiftcard.jpg",
+      "isAvailable": "Dec-2021",
+      "review:":""
+    }
+  ]
 }
 
 

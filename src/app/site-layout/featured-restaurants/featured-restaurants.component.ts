@@ -17,5 +17,4 @@ export class FeaturedRestaurantsComponent implements OnInit {
       this.restaurantsList = data;
     })
   }
-
 }

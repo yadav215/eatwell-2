@@ -40,4 +40,9 @@ export class ProductService {
     const RestaurantsListUrl="http://localhost:3000/featuredRestaurants";
     return this.httpClient.get<FeaturedRestaurant[]>(RestaurantsListUrl);
   }
+
+  getProductListing():Observable<Product[]>{
+    const productListing="http://localhost:3000/productListing";
+    return this.httpClient.get<Product[]>(productListing);
+  }
 }

@@ -29,4 +29,8 @@ import { UpdateProductComponent } from './update-product/update-product.componen
     ProductComponent
   ]
 })
-export class ProductModule { }
+export class ProductModule {
+  constructor(){
+    console.log("product module");
+  }
+ }

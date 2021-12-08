@@ -11,51 +11,23 @@
                   <option value="march">Sort by price: high to low</option>
               </select><div class="select-styled">--Sort by popularity --</div><ul class="select-options"><li rel="hide">--Sort by popularity --</li><li rel="january">Sort by latest</li><li rel="february">Sort by price: low to high</li><li rel="march">Sort by price: high to low</li></ul></div> 
               <div class="product-cart">
-                  <div class="item">
+
+                  <div class="item" *ngFor="let item of productListItems">
                       <div class="img-box">
-                        <img src="assets/img/ToscaGiftCard.jpg" class="img-fluid">
+                        <img [src]="item.productImg" class="img-fluid">
                       </div>
                       <div class="details">
-                        <h2>TOSCA <br><span>Gift Card</span></h2>
-                        <div class="price">$0.00</div>
+                        <h2>{{item.productName}} <br><span>{{item.description}}</span></h2>
+                        <div class="price">{{item.productPrice}}</div>
                         <label>Valid Till</label>
                         <span>
-                          Dec-2021
+                          {{item.productPrice}}
                         </span>
                         
-                        <a href="product-details.html">Select</a>
+                        <a routerLink="product-details/{{item.productId}}">Select</a>
                       </div>
                     </div>
-                    <div class="item">
-                      <div class="img-box">
-                        <img src="assets/img/CaffeTosca.jpg" class="img-fluid">
-                      </div>
-                      <div class="details">
-                        <h2>Caffé Tosca<br><span>Gift Card</span></h2>
-                        <div class="price">$0.00</div>
-                        
-                        <label>Valid Till</label>
-                        <span>
-                          Dec-2021
-                        </span>                           
-                        <a href="#">Select</a>
-                      </div>
-                    </div>
-                    <div class="item">
-                      <div class="img-box">
-                        <img src="assets/img/starsgiftcard.jpg" class="img-fluid">
-                      </div>
-                      <div class="details">
-                        <h2>Stars<br><span>Gift Card</span></h2>
-                        <div class="price">$0.00</div>
-                        <label>Valid Till</label>
-                        <span>
-                          Dec-2021
-                        </span>
-                        
-                        <a href="#">Select</a>
-                      </div>
-                    </div>
+                   
               </div>
             </div>
          
